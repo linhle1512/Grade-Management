@@ -74,6 +74,7 @@
             this.cbSubject.Name = "cbSubject";
             this.cbSubject.Size = new System.Drawing.Size(205, 24);
             this.cbSubject.TabIndex = 5;
+            this.cbSubject.SelectedIndexChanged += new System.EventHandler(this.cbSubject_SelectedIndexChanged);
             // 
             // dgvMarkReport
             // 

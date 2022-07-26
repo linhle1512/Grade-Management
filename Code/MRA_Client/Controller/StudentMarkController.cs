@@ -27,5 +27,17 @@ namespace MRA_Client.Controller
             return DAO.GetDataBySQL(sql, parameter);
         }
 
+        internal static object GetScoreStudent(string rollStudent)
+        {
+            string sql = @"select rollgranditemtype, weight, score from GrandItemType as grand
+                             inner join GrandItemDetail gd on grand.roll = gd.rollgranditemtype
+                             inner join ScoreDetail sd on gd.rolltype = sd.rolltype
+                             Where sd.rollstudent = @rollStudent";
+            SqlParameter[] param = new SqlParameter[]
+            {
+                new SqlParameter("@rollStudent", SqlDbType.NChar){Value = rollStudent}
+            };
+            return DAO.GetDataBySQL(sql,param);
+        }
     }
 }
