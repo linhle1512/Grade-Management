@@ -13,7 +13,7 @@ namespace MRA_Client.DataAccess {
 
 
         private static SqlConnection GetConnection() {
-            string ConnectionString = "server=LAPTOP-DV5UMJFC;database=MRA_Project;uid=sa;pwd=linhkidno1";
+            string ConnectionString = "server=LAPTOP-S2U1CV3R\\MSSQLSERVER01;database=MRA_Project;uid=sa;pwd=123456";
             return new SqlConnection(ConnectionString);
         }
 

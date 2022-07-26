@@ -5,15 +5,28 @@ using System.Data.SqlClient;
 
 namespace MRA_Client.Controller {
     class LoginController {
-        internal static Account GetAccount(string roll, string password) {
+        internal static Account GetTeacherAccount(string roll, string password) {
             string sql = "SELECT * FROM [MRA_Project].[dbo].[Teacher] WHERE [roll] = @roll and [password] = @password";
             SqlParameter[] parameters = new SqlParameter[] {
                 new SqlParameter("@roll", SqlDbType.NChar){Value = roll},
                 new SqlParameter("@password", SqlDbType.NVarChar){Value = password},
             };
+
+
             return GetAccountByDataTable(DAO.GetDataBySQL(sql, parameters));
         }
 
+        internal static Account GetStudentAccount(string roll, string password)
+        {
+            string sql = "SELECT * FROM [MRA_Project].[dbo].[Student] WHERE [roll] = @roll and [password] = @password";
+            SqlParameter[] parameters = new SqlParameter[] {
+                new SqlParameter("@roll", SqlDbType.NChar){Value = roll},
+                new SqlParameter("@password", SqlDbType.NVarChar){Value = password},
+            };
+
+
+            return GetAccountByDataTable(DAO.GetDataBySQL(sql, parameters));
+        }
         public static Account GetAccountByDataTable(DataTable dataTable) {
             if (dataTable.Rows.Count == 0) {
                 return null;

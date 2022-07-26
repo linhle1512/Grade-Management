@@ -41,3 +41,15 @@ C:\Users\ADMIN\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\
 C:\Users\ADMIN\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.exe
 C:\Users\ADMIN\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.pdb
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\bin\Debug\MRA_Client.exe
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\bin\Debug\MRA_Client.pdb
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.Login.resources
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.GradeManagement.resources
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.exe
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.pdb
+C:\Users\Lenovo\Desktop\Grade-Management\Code\MRA_Client\obj\Debug\MRA_Client.StudentGrade.resources
